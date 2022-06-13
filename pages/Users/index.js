@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { useEffect, useState } from "react";
-import Button from "../components/Button/Button";
-import ModalMain from "../components/UserList/UserModal/ModalMain";
-import UserTable from "../components/UserList/UserTable/UserTable";
+import Button from "../../components/Button/Button";
+import ModalMain from "../../components/UserList/UserModal/ModalMain";
+import UserTable from "../../components/UserList/UserTable/UserTable";
 
 const UserList = () => {
   const [userData, setUserData] = useState({
@@ -44,7 +44,7 @@ const UserList = () => {
   return (
     <>
       <Head>
-        <title>Users-List</title>
+        <title>Users</title>
       </Head>
       <div className="h-10">
         <div className="flex justify-end my-2 mx-2">

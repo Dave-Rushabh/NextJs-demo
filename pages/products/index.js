@@ -27,6 +27,7 @@ const Products = ({ products }) => {
             return (
               <>
                 <div key={item.id} className={productStyles.card}>
+                  {/* <Image src="/products/ERP.png" height={1000} width={1000} /> */}
                   <div>{item.pName}</div>
                   <Link href={`/products/${item.url}`}>
                     <a>
@@ -34,7 +35,6 @@ const Products = ({ products }) => {
                     </a>
                   </Link>
                 </div>
-                {/* <Image src={`${item.img}`} width={50} height={50} /> */}
               </>
             );
           })}

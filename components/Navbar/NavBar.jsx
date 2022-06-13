@@ -46,7 +46,7 @@ const NavBar = () => {
             </Link>
           </div>
           <div className="flex items-center text-white hover:text-blue-600">
-            <Link href="/UserList">
+            <Link href="/Users">
               <a>User List </a>
             </Link>
           </div>
@@ -54,13 +54,13 @@ const NavBar = () => {
 
         <div className="flex gap-8 flex-row pl-10">
           <div className="flex items-center text-white hover:text-blue-600">
-            <Link href="/UserData/ManageUser">
-              <a>Sign Up </a>
+            <Link href="/Login">
+              <a>Log In </a>
             </Link>
           </div>
           <div className="flex items-center text-white hover:text-blue-600">
-            <Link href="/UserData/ManageUser">
-              <a>Log In </a>
+            <Link href="/SignUp">
+              <a>Sign Up </a>
             </Link>
           </div>
         </div>

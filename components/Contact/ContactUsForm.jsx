@@ -53,7 +53,7 @@ const ContactUsForm = ({ modalOpen, setModalOpen, closeMyModal }) => {
               {...register("from_name", {
                 required: true,
               })}
-              className="border-solid border-b-2 border-footer-header w-60 focus:outline-none pl-4 text-sm rounded h-7"
+              className="border-solid border-b-2 border-footer-header w-60 focus:outline-none pl-4 text-sm h-7"
             />
             <div className="text-red-600 text-sm">
               {errors.from_name?.type === "required" && "*Name is required"}
@@ -73,7 +73,7 @@ const ContactUsForm = ({ modalOpen, setModalOpen, closeMyModal }) => {
                 pattern:
                   /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
               })}
-              className="border-solid border-b-2 border-footer-header w-60 focus:outline-none pl-4 text-sm rounded h-7"
+              className="border-solid border-b-2 border-footer-header w-60 focus:outline-none pl-4 text-sm h-7"
             />
             <div className="text-red-600 text-sm">
               {errors.email?.type === "required" && "*Email is required"}
@@ -89,7 +89,7 @@ const ContactUsForm = ({ modalOpen, setModalOpen, closeMyModal }) => {
           <div className="w-2/3">
             <textarea
               name="message"
-              className="border-solid border-b-2 border-footer-header w-full focus:outline-none pl-4 text-sm rounded py-2"
+              className="border-solid border-b-2 border-footer-header w-full focus:outline-none pl-4 text-sm py-2"
               {...register("message", { required: true })}
               placeholder="Let us know how our services can be helpful to grow your business"
             />

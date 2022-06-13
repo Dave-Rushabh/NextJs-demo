@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
-import ContactModal from "./ContactModal";
+// import ContactModal from "./ContactModal";
 
 const ContactUsForm = ({ modalOpen, setModalOpen, closeMyModal }) => {
   // const [popUp, setPopUp] = useState(false);
@@ -10,10 +10,11 @@ const ContactUsForm = ({ modalOpen, setModalOpen, closeMyModal }) => {
     register,
     formState: { errors },
     handleSubmit,
+    reset,
   } = useForm();
   const form = useRef();
 
-  const onSubmit = () => {
+  const onSubmit = (e) => {
     emailjs
       .sendForm(
         "service_aexz6i5",
@@ -31,6 +32,7 @@ const ContactUsForm = ({ modalOpen, setModalOpen, closeMyModal }) => {
           console.log(error.text);
         }
       );
+    reset();
   };
 
   return (

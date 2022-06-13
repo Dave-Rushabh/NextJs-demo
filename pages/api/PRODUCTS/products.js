@@ -5,7 +5,7 @@ const productsList = [
     id: 1,
     pName: "ERP Systems",
     url: "ERP-Systems",
-    img: "",
+    img: "/products/ERP.png",
     availableItems: 20,
     cost: 10_000,
   },

@@ -29,7 +29,7 @@ const Services = ({ services }) => {
                   <div>{item.pName}</div>
                   <Link href={`/services/${item.url}`}>
                     <a>
-                      <Button btnText="Know more" />
+                      <Button btnText="Know more" width="150px" />
                     </a>
                   </Link>
                 </div>

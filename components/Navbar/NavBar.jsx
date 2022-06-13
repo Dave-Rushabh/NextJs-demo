@@ -36,12 +36,12 @@ const NavBar = () => {
             </Link>
           </div>
           <div className="flex items-center text-white hover:text-blue-600">
-            <Link href="/ContactUs">
+            <Link href="/Contact">
               <a>Contact Us </a>
             </Link>
           </div>
           <div className="flex items-center text-white hover:text-blue-600">
-            <Link href="/AboutUs">
+            <Link href="/About">
               <a>About Us </a>
             </Link>
           </div>

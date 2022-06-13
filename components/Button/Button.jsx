@@ -1,9 +1,12 @@
 import React from "react";
 
-const Button = ({ btnText }) => {
+const Button = ({ btnText, width }) => {
   return (
     <>
-      <button className="ml-2 rounded border-solid border-2 w-20 hover:border-black bg-white">
+      <button
+        className="ml-8 rounded border-solid border-2 w-20 hover:border-black bg-white"
+        style={{ width: width }}
+      >
         {btnText}
       </button>
     </>

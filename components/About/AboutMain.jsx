@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <>
       <Head>
-        <title>Home | Premium IT services</title>
+        <title>About Us</title>
       </Head>
       <div className="mx-auto w-5/6 grid grid-cols-4  my-8 gap-4 px-8 py-8">
         <div className=" rounded-lg py-10 border-solid border-2 border-blue-300 flex flex-col px-2 justify-center row-span-3 items-center">

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import AboutMain from "../../components/About/AboutMain";
 
 const AboutUs = () => {
   return (
@@ -6,7 +7,7 @@ const AboutUs = () => {
       <Head>
         <title>About-Us</title>
       </Head>
-      <h1>This is AboutUs page</h1>
+      <AboutMain />
     </>
   );
 };
